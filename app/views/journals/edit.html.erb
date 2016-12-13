@@ -1,8 +1,9 @@
 <div class="container">
 	<h1>Editing Journal</h1>
+	<br/>
 
 	<%= render 'form', journal: @journal %>
 
-	<%= link_to 'Show', @journal %> |
-	<%= link_to 'Back', journals_path %>
+	<%= link_to 'Show', @journal, class: "btn" %> |
+	<%= link_to 'Back', journals_path, class: "btn" %>
 </div>

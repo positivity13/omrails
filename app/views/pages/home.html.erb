@@ -2,6 +2,7 @@
     <div class="jumbotron jumbotron-home">
         <div class="container">
             <h1>Welcome Back</h1>
+            <%= link_to "Go to My Journal", journals_path, class: "btn btn-info btn-lg" %>
         </div>
     </div>
 <% else %>
@@ -46,17 +47,17 @@
             <div class="col-md-4">
                 <h2>Reminders</h2>
                 <p>The app allows you to set up daily reminders, helping you keep up the habbit of journalling daily up.</p>
-                <p><%= link_to "View details", about_path, class: "btn btn-danger" %></p>
+                <p><%= link_to "View details", about_path, class: "btn btn-info" %></p>
             </div>
             <div class="col-md-4">
                 <h2>Searchable</h2>
                 <p>Your journal entries are full searchable by date or keywords. So you can look back on a specific date. Or pehaps find all the entrys with a specific keyword.</p>
-                <p><%= link_to "View details", about_path, class: "btn btn-danger" %></p>
+                <p><%= link_to "View details", about_path, class: "btn btn-info" %></p>
             </div>
             <div class="col-md-4">
                 <h2>Templates</h2>
                 <p>Dozen of templates provided. This helps to keep your journalling flow going with questions built into the templates</p>
-                <p><%= link_to "View details", about_path, class: "btn btn-danger" %></p>
+                <p><%= link_to "View details", about_path, class: "btn btn-info" %></p>
             </div>
         </div>
     </div>
