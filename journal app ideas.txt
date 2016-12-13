@@ -1,0 +1,31 @@
+Journal entry user:references content1:text content2:text content3:text 
+
+
+Resource
+
+journal_entry - date, content, user
+
+I am grateful for...
+1.
+2.
+3.
+
+What would make today great?
+1.
+2.
+3.
+
+Daily affirmations
+....
+
+
+//3 amazing things that happened today
+//1.
+//2.
+//3.
+//
+//How could I have made today better?
+
+
+
+Ideas, can take all that grateful for and put it in the thing that counts and displays most used words etc.
