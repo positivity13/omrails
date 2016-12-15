@@ -15,9 +15,16 @@ Rails.application.routes.draw do
       delete 'unfollow', to: 'follows#destroy'
     end
   end
+
+  resources :items do
+    member do
+      post 'vote', to: 'votes#create'
+      delete 'unvote', to: 'votes#destroy'
+    end
+  end
+
   resources :journals
   resources :tweets
-  
   root 'pages#home'
   get 'about', to: 'pages#about'
   get 'contact', to: 'pages#contact'
