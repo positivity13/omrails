@@ -9,4 +9,5 @@ class Journal < ApplicationRecord
   validates :content5, presence: true, length: { maximum: 140 }
   validates :content6, presence: true, length: { maximum: 140 }
   validates :content7, presence: true, length: { maximum: 560 }
+  
 end
